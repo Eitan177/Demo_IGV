@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="hg38" locus="All" nextAutoscaleGroup="2" version="8">
     <Resources>
-        <Resource path="c1.seg" type="seg"/>
-        <Resource path="c4.seg" type="seg"/>
-        <Resource path="c7.seg" type="seg"/>
-        <Resource path="c10.seg" type="seg"/>
-        <Resource path="proband.seg" type="seg"/>
-        <Resource path="c9.seg" type="seg"/>
-        <Resource path="c6.seg" type="seg"/>
-        <Resource path="c3.seg" type="seg"/>
-        <Resource path="c5.seg" type="seg"/>
-        <Resource path="c2.seg" type="seg"/>
-        <Resource path="c8.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c1.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c4.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c7.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c10.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c9.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c6.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c3.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c5.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c2.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c8.seg" type="seg"/>
     </Resources>
     <Panel height="584" name="DataPanel" width="1132">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
         <Track attributeKey="Refseq Genes" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;836.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz" name="Refseq Genes" visible="true"/>
-        <Track attributeKey="c1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c1.seg_c1" name="c1" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c1" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c1.seg_c1" name="c1" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2.18665" minimum="-5.3396" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c2" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c2.seg_c2" name="c2" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c2" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c2.seg_c2" name="c2" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2.42674" minimum="-5.34438" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c3" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c3.seg_c3" name="c3" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c3" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c3.seg_c3" name="c3" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.30325" minimum="-5.16318" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c4" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c4.seg_c4" name="c4" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c4" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c4.seg_c4" name="c4" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.24214" minimum="-4.41059" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c5" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c5.seg_c5" name="c5" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c5" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c5.seg_c5" name="c5" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2.72857" minimum="-3.66849" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c6" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c6.seg_c6" name="c6" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c6" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c6.seg_c6" name="c6" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.32099" minimum="-5.03246" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c7" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c7.seg_c7" name="c7" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c7" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c7.seg_c7" name="c7" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.29681" minimum="-4.42291" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c8" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c8.seg_c8" name="c8" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c8" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c8.seg_c8" name="c8" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.28402" minimum="-5.29039" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c9" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c9.seg_c9" name="c9" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c9" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c9.seg_c9" name="c9" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.23765" minimum="-4.36176" type="LINEAR"/>
         </Track>
-        <Track attributeKey="c10" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\c10.seg_c10" name="c10" renderer="HEATMAP" visible="true">
+        <Track attributeKey="c10" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c10.seg_c10" name="c10" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.24539" minimum="-4.41098" type="LINEAR"/>
         </Track>
-        <Track attributeKey="proband" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="C:\Users\halperse\Documents\igvsession\proband.seg_proband" name="proband" renderer="HEATMAP" visible="true">
+        <Track attributeKey="proband" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.seg_proband" name="proband" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.33841" minimum="-9.96578" type="LINEAR"/>
         </Track>
     </Panel>
