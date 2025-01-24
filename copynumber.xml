@@ -4,14 +4,13 @@
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c1.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c4.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c7.seg" type="seg"/>
-        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c10.seg" type="seg"/>
-        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c9.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c6.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c3.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c5.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c2.seg" type="seg"/>
         <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c8.seg" type="seg"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.seg" type="seg"/>
     </Resources>
     <Panel height="584" name="DataPanel" width="1132">
         <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="POSITIVE" shouldShowTranslation="false" visible="true"/>
@@ -42,9 +41,6 @@
         </Track>
         <Track attributeKey="c9" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c9.seg_c9" name="c9" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.23765" minimum="-4.36176" type="LINEAR"/>
-        </Track>
-        <Track attributeKey="c10" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/c10.seg_c10" name="c10" renderer="HEATMAP" visible="true">
-            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.24539" minimum="-4.41098" type="LINEAR"/>
         </Track>
         <Track attributeKey="proband" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" colorScale="ContinuousColorScale;-0.1;-1.5;0.1;1.5;0,0,255;255,255,255;255,0,0" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.seg_proband" name="proband" renderer="HEATMAP" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="4.33841" minimum="-9.96578" type="LINEAR"/>
