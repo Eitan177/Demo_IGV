@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="hg19" locus="chr7:55086528-55088221" version="8">
     <Resources>
-        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/proband.bam" type="bam"/>
+        <Resource path="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.bam" type="bam"/>
     </Resources>
     <Panel height="17290" name="DataPanel" width="1115">
-        <Track attributeKey="proband.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/proband.bam_coverage" name="proband.bam Coverage" snpThreshold="0.01" visible="true">
+        <Track attributeKey="proband.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.bam_coverage" name="proband.bam Coverage" snpThreshold="0.01" visible="true">
             <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="445.0" minimum="0.0" type="LINEAR"/>
         </Track>
-        <Track attributeKey="proband.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/proband.bam_junctions" maxdepth="50" name="proband.bam Junctions" visible="false"/>
-        <Track attributeKey="proband.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/proband.bam" name="proband.bam" visible="true">
+        <Track attributeKey="proband.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.bam_junctions" maxdepth="50" name="proband.bam Junctions" visible="false"/>
+        <Track attributeKey="proband.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="OTHER" fontSize="10" id="https://raw.githubusercontent.com/Eitan177/copynumbersegtrack_demo/refs/heads/main/proband.bam" name="proband.bam" visible="true">
             <RenderOptions duplicatesOption="FILTER"/>
         </Track>
     </Panel>
